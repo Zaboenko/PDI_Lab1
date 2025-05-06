@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Таблиця 4x4</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      text-align: center;
+    }
+    td, th {
+      border: 1px solid black;
+      padding: 10px;
+    }
+    .row1 { background-color: #f9c2c2; }
+    .row2 { background-color: #c2f9d4; }
+    .row3 { background-color: #c2d4f9; }
+    .row4 { background-color: #f9f4c2; }
+  </style>
+</head>
+<body>
+
+  <h2>Таблиця 4x4 з об'єднанням комірок</h2>
+
+  <table>
+    <tr class="row1">
+      <td>Рядок 1, Стовпець 1</td>
+      <td>Рядок 1, Стовпець 2</td>
+      <td>Рядок 1, Стовпець 3</td>
+      <td>Рядок 1, Стовпець 4</td>
+    </tr>
+    <tr class="row2">
+      <td>Рядок 2, Стовпець 1</td>
+      <td rowspan="2">Об'єднана комірка (рядки 2-3)</td>
+      <td>Рядок 2, Стовпець 3</td>
+      <td>Рядок 2, Стовпець 4</td>
+    </tr>
+    <tr class="row3">
+      <td>Рядок 3, Стовпець 1</td>
+      <td>Рядок 3, Стовпець 3</td>
+      <td>Рядок 3, Стовпець 4</td>
+    </tr>
+    <tr class="row4">
+      <td>Рядок 4, Стовпець 1</td>
+      <td>Рядок 4, Стовпець 2</td>
+      <td>Рядок 4, Стовпець 3</td>
+      <td>Рядок 4, Стовпець 4</td>
+    </tr>
+  </table>
+
+</body>
+</html>
